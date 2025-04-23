@@ -1,0 +1,71 @@
+.member-type[typing="fire"] {
+    background-color: #F08030;
+}
+
+.member-type[typing="water"] {
+    background-color: #6390F0;
+}
+
+.member-type[typing="grass"] {
+    background-color: #7AC74C;
+}
+
+.member-type[typing="electric"] {
+    background-color: #F7D02C;
+}
+
+.member-type[typing="bug"] {
+    background-color: #A6B91A;
+}
+
+.member-type[typing="normal"] {
+    background-color: #A8A878;
+}
+
+.member-type[typing="poison"] {
+    background-color: #A33EA1;
+}
+
+.member-type[typing="psychic"] {
+    background-color: #F95587;
+}
+
+.member-type[typing="fighting"] {
+    background-color: #D16C46;
+}
+
+.member-type[typing="ground"] {
+    background-color: #E2BF65;
+}
+
+.member-type[typing="rock"] {
+    background-color: #B6A136;
+}
+
+.member-type[typing="ice"] {
+    background-color: #98D8D8;
+}
+
+.member-type[typing="ghost"] {
+    background-color: #6F4E9C;
+}
+
+.member-type[typing="dragon"] {
+    background-color: #6F35FC;
+}
+
+.member-type[typing="dark"] {
+    background-color: #705746;
+}
+
+.member-type[typing="fairy"] {
+    background-color: #D685D3;
+}
+
+.member-type[typing="steel"] {
+    background-color: #B7B7CE;
+}
+
+.member-type[typing="flying"] {
+    background-color: #A98FF3;
+}

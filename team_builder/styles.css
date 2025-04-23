@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    background-color: #EAFEFD;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header {
+    background-color: #B9002C;
+    color: white;
+    text-align: center;
+    margin: -5px, -5px;
+    padding: 10px 10px;
+    text-shadow: 1px 1px black;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.content {
+    display: block;
+    background-color: #B6F83C;
+    margin: 5px 20px;
+    padding-bottom: 1vh;
+}
+
+#clear-all {
+    margin-left: 20px;
+}
+#error-msg {
+    text-align: center;
+    color: red;
+}
+
+button {
+    background: #ffcc00;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    text-shadow: 1px 1px white;
+    box-shadow: 3px 3px black;
+}
+
+button:hover {
+    border: 5px solid white;
+    box-shadow: 0px 0px;
+}
+
+button:active {
+    background: #deb309;
+    border: 3px solid black;
+}
+
+#search-bar {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #798490;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.query {
+    text-align: center;
+    padding-top: 2vh;
+}
+
+#party-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+    margin: 6vh 6vh;
+}
+
+.remove-btn {
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+#party-list .party-member {
+    background-color: #C7FE6C;
+    border-radius: 15px;
+    box-shadow: 3px 3px #b3e06b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.remove-btn {
+    align-self: flex-end;
+    margin: 5px;
+}
+
+.member-sprite {
+    width: 20vh;
+}
+
+.member-name {
+    text-transform: uppercase;
+}
+
+.member-typing {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    gap: 2px;
+}
+
+.member-type {
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    padding: 5px 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    #party-list {
+        grid-template-columns: 1fr 1fr
+    }
+}
